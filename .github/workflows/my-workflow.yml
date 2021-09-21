@@ -14,10 +14,7 @@ jobs:
       - name: hello-action
         uses: ./.github/actions/hello-world
 
-      - name: meow
-        uses: ./.github/actions/cat-facts
-        id: cat
-
+  
       - name: create-issue
         uses: ./.github/actions/issue-maker
         with:
